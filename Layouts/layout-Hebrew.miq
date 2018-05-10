@@ -1,0 +1,68 @@
+﻿{ Layout
+ Name       Hebrew
+ IconIndex  4
+}
+
+{ Modes
+ +
+ + shift
+ + Var
+ + Var shift
+}
+
+{ Keys
+ `   ֫    ₪            % ole      sheqel sign
+ -   ־   -            % maqaph   ascii -
+ +   =   ﬩            % ascii =  hebrew plus
+ 
+ Q   ק  {-} {-} {-}
+ W   ו   װ  {-} {-}
+ E   ֵ    ֶ    ֱ   {-}   % tzere    segol         chataph segol
+ R   ר  {-} {-} {-}
+ T   ת  {-} {-} {-}
+ Y   צ   ץ  {-} {-}
+ U   ּ    ֻ    ֺ   {-}   % dagesh   qubutz        cholam for waw
+ I   ִ    ְ    ֿ   {-}   % chiriq   shva          rafe
+ O   ֹ    ׇ    ֳ   {-}   % cholam   qamatz qatan  chataph qamatz
+ P   פ   ף  {-} {-}
+ [   [   _{
+ ]   ]   _}
+ 
+ A   ָ    ַ    ֲ   {-}   % qamatz   patach        chataph patach
+ S   ש   שׂ   שׁ  {-}
+ D   ד  {-} {-} {-}
+ F   ט  {-} {-} {-}
+ G   ג  {-} {-} {-}
+ H   ה   ױ  {-} {-}
+ J   י   ײ  {-} {-}
+ K   כ   ך  {-} {-}
+ L   ל  {-} {-} {-}
+ ;   א  {-} {-} {-}
+ '   ׳   ״   '   _"   % geresh   gereshayim    ascii '  "
+ 
+ Z   ז  {-} {-} {-}
+ X   ח  {-} {-} {-}
+ C   ס  {-} {-} {-}
+ V   ע  {-} {-} {-}
+ B   ב  {-} {-} {-}
+ N   נ   ן  {-} {-}
+ M   מ   ם  {-} {-}
+ ,   ,   <
+ .   .   >
+ /   /   ?
+}
+
+{ Substitutions
+ 
+ { Ligature
+  יי   ײ
+  וי   ױ
+  וו   װ
+  אל   ﭏ
+ }
+ 
+ { Turn
+  נ   ׆
+ }
+ 
+}

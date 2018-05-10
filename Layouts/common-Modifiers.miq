@@ -1,0 +1,9 @@
+﻿{ Modes
+ + any
+}
+
+{ Keys
+ RAlt      {modifier Var}
+ AppsKey   {modifier Dia}
+ CapsLock  {modifier Lay}
+}

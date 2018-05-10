@@ -1,0 +1,21 @@
+﻿{ Modes
+ + Lay
+ + Lay shift
+ + Lay ctrl
+}
+
+{ Keys
+ _  {switchLayout next}     {retypePhrase next}     {retypeChar next}
+ 
+ L  {switchLayout Latin}    {retypePhrase Latin}    {retypeChar Latin}
+ E  {switchLayout Latin}    {retypePhrase Latin}    {retypeChar Latin}
+ 
+ C  {switchLayout Cyrillic} {retypePhrase Cyrillic} {retypeChar Cyrillic}
+ R  {switchLayout Cyrillic} {retypePhrase Cyrillic} {retypeChar Cyrillic}
+ 
+ G  {switchLayout Greek}    {retypePhrase Greek}    {retypeChar Greek}
+ W  {switchLayout Greek}    {retypePhrase Greek}    {retypeChar Greek}
+ 
+ H  {switchLayout Hebrew}   {retypePhrase Hebrew}   {retypeChar Hebrew}
+ Q  {switchLayout Hebrew}   {retypePhrase Hebrew}   {retypeChar Hebrew}
+}

@@ -1,0 +1,200 @@
+﻿{ Modes
+ + Dia
+}
+
+{ Keys
+ F11  {sub Katakana}
+ F12  {sub Hiragana}
+}
+
+{ Substitutions
+ 
+ Katakana    {i イ}  {e エ}  {a ア}  {o オ}  {u ウ}
+ Katakana   {ki キ} {ke ケ} {ka カ} {ko コ} {ku ク}
+ Katakana   {gi ギ} {ge ゲ} {ga ガ} {go ゴ} {gu グ}
+ Katakana   {si シ} {se セ} {sa サ} {so ソ} {su ス}
+ Katakana  {shi シ}
+ Katakana   {zi ジ} {ze ゼ} {za ザ} {zo ゾ} {zu ズ}
+ Katakana   {ji ジ}
+ Katakana   {ti チ} {te テ} {ta タ} {to ト} {tu ツ}
+ Katakana  {chi チ}                     {tsu ツ}
+ Katakana   {di ヂ} {de デ} {da ダ} {do ド} {du ヅ}
+ Katakana   {ni ニ} {ne ネ} {na ナ} {no ノ} {nu ヌ}
+ Katakana   {hi ヒ} {he ヘ} {ha ハ} {ho ホ} {hu フ}
+ Katakana                               {fu フ}
+ Katakana   {bi ビ} {be ベ} {ba バ} {bo ボ} {bu ブ}
+ Katakana   {pi ピ} {pe ペ} {pa パ} {po ポ} {pu プ}
+ Katakana   {mi ミ} {me メ} {ma マ} {mo モ} {mu ム}
+ Katakana   {ri リ} {re レ} {ra ラ} {ro ロ} {ru ル}
+ Katakana   {wi ヰ} {we ヱ} {wa ワ} {wo ヲ}
+ Katakana   {vi ヸ} {ve ヹ} {va ヷ} {vo ヺ} {vu ヴ}
+ Katakana            {ya  ヤ}  {yo  ヨ}  {yu  ユ}
+ Katakana           {kya キャ} {kyo キョ} {kyu キュ}
+ Katakana           {gya ギャ} {gyo ギョ} {gyu ギュ}
+ Katakana           {sya シャ} {syo ショ} {syu シュ}
+ Katakana           {sha シャ} {sho ショ} {shu シュ}
+ Katakana           {zya ジャ} {zyo ジョ} {zyu ジュ}
+ Katakana            {ja ジャ}  {jo ジョ}  {ju ジュ}
+ Katakana           {tya チャ} {tyo チョ} {tyu チュ}
+ Katakana           {cha チャ} {cho チョ} {chu チュ}
+ Katakana           {dya ヂャ} {dyo ヂョ} {dyu ヂュ}
+ Katakana           {nya ニャ} {nyo ニョ} {nyu ニュ}
+ Katakana           {hya ヒャ} {hyo ヒョ} {hyu ヒュ}
+ Katakana           {bya ビャ} {byo ビョ} {byu ビュ}
+ Katakana           {pya ピャ} {pyo ピョ} {pyu ピュ}
+ Katakana           {mya ミャ} {myo ミョ} {myu ミュ}
+ Katakana           {rya リャ} {ryo リョ} {ryu リュ}
+ Katakana  {n ン} {: ッ} {- ー} {' ヽ}{_" ヾ} {· ・}
+ Katakana   {'i ィ} {'e ェ} {'a ァ} {'o ォ} {'u ゥ}
+ Katakana         {'ke ヶ}{'ka ヵ}       {'ku ㇰ}
+ Katakana  {'si ㇱ}                     {'su ㇲ}
+ Katakana {'shi ㇱ}
+ Katakana                       {'to ㇳ}{'tu ッ}
+ Katakana                             {'tsu ッ}
+ Katakana                              {'nu ㇴ}
+ Katakana  {'hi ㇶ}{'he ㇸ}{'ha ㇵ}{'ho ㇹ}{'hu ㇷ}
+ Katakana                              {'fu ㇷ}
+ Katakana                              {'mu ㇺ}
+ Katakana  {'ri ㇼ}{'re ㇾ}{'ra ㇻ}{'ro ㇿ}{'ru ㇽ}
+ Katakana                {'wa ヮ}
+ Katakana                {'ya ャ}{'yo ョ}{'yu ュ}
+ Katakana  {koto ヿ}
+ 
+ Katakana    {и イ}  {э エ}  {а ア}  {о オ}  {у ウ}
+ Katakana   {ки キ} {кэ ケ} {ка カ} {ко コ} {ку ク}
+ Katakana   {ги ギ} {гэ ゲ} {га ガ} {го ゴ} {гу グ}
+ Katakana   {си シ} {сэ セ} {са サ} {со ソ} {су ス}
+ Katakana   {зи ジ} {зэ ゼ} {за ザ} {зо ゾ} {зу ズ}
+ Katakana  {дзи ジ}{дзэ ゼ}{дза ザ}{дзо ゾ}{дзу ズ}
+ Katakana   {ти チ} {тэ テ} {та タ} {то ト} {ту ツ}
+ Katakana                               {цу ツ}
+ Katakana   {ди ヂ} {дэ デ} {да ダ} {до ド} {ду ヅ}
+ Katakana   {ни ニ} {нэ ネ} {на ナ} {но ノ} {ну ヌ}
+ Katakana   {хи ヒ} {хэ ヘ} {ха ハ} {хо ホ} {ху フ}
+ Katakana                               {фу フ}
+ Katakana   {би ビ} {бэ ベ} {ба バ} {бо ボ} {бу ブ}
+ Katakana   {пи ピ} {пэ ペ} {па パ} {по ポ} {пу プ}
+ Katakana   {ми ミ} {мэ メ} {ма マ} {мо モ} {му ム}
+ Katakana   {ри リ} {рэ レ} {ра ラ} {ро ロ} {ру ル}
+ Katakana   {ви ヰ} {вэ ヱ} {ва ワ} {во ヲ}
+ Katakana  {'ви ヸ}{'вэ ヹ}{'ва ヷ}{'во ヺ}{'ву ヴ}
+ Katakana             {я  ヤ}   {ё  ヨ}   {ю  ユ}
+ Katakana            {кя キャ}  {кё キョ}  {кю キュ}
+ Katakana            {гя ギャ}  {гё ギョ}  {гю ギュ}
+ Katakana            {ся シャ}  {сё ショ}  {сю シュ}
+ Katakana            {зя ジャ}  {зё ジョ}  {зю ジュ}
+ Katakana           {дзя ジャ} {дзё ジョ} {дзю ジュ}
+ Katakana            {тя チャ}  {тё チョ}  {тю チュ}
+ Katakana            {дя ヂャ}  {дё ヂョ}  {дю ヂュ}
+ Katakana            {ня ニャ}  {нё ニョ}  {ню ニュ}
+ Katakana            {хя ヒャ}  {хё ヒョ}  {хю ヒュ}
+ Katakana            {бя ビャ}  {бё ビョ}  {бю ビュ}
+ Katakana            {пя ピャ}  {пё ピョ}  {пю ピュ}
+ Katakana            {мя ミャ}  {мё ミョ}  {мю ミュ}
+ Katakana            {ря リャ}  {рё リョ}  {рю リュ}
+ Katakana   {н ン}
+ Katakana   {'и ィ} {'э ェ} {'а ァ} {'о ォ} {'у ゥ}
+ Katakana         {'кэ ヶ}{'ка ヵ}       {'ку ㇰ}
+ Katakana  {'си ㇱ}                     {'су ㇲ}
+ Katakana                       {'то ㇳ}{'ту ッ}
+ Katakana                              {'цу ッ}
+ Katakana                              {'ну ㇴ}
+ Katakana  {'хи ㇶ}{'хэ ㇸ}{'ха ㇵ}{'хо ㇹ}{'ху ㇷ}
+ Katakana                              {'фу ㇷ}
+ Katakana                              {'му ㇺ}
+ Katakana  {'ри ㇼ}{'рэ ㇾ}{'ра ㇻ}{'ро ㇿ}{'ру ㇽ}
+ Katakana                {'ва ヮ}
+ Katakana                 {'я ャ} {'ё ョ} {'ю ュ}
+ Katakana  {кото ヿ}
+ 
+ Katakana  {" "  "　"}   % ideographic space
+ 
+ 
+ Hiragana    {i い}  {e え}  {a あ}  {o お}  {u う}
+ Hiragana   {ki き} {ke け} {ka か} {ko こ} {ku く}
+ Hiragana   {gi ぎ} {ge げ} {ga が} {go ご} {gu ぐ}
+ Hiragana   {si し} {se せ} {sa さ} {so そ} {su す}
+ Hiragana  {shi し}
+ Hiragana   {zi じ} {ze ぜ} {za ざ} {zo ぞ} {zu ず}
+ Hiragana   {ji じ}
+ Hiragana   {ti ち} {te て} {ta た} {to と} {tu つ}
+ Hiragana  {chi ち}                     {tsu つ}
+ Hiragana   {di ぢ} {de で} {da だ} {do ど} {du づ}
+ Hiragana   {ni に} {ne ね} {na な} {no の} {nu ぬ}
+ Hiragana   {hi ひ} {he へ} {ha は} {ho ほ} {hu ふ}
+ Hiragana                               {fu ふ}
+ Hiragana   {bi び} {be べ} {ba ば} {bo ぼ} {bu ぶ}
+ Hiragana   {pi ぴ} {pe ぺ} {pa ぱ} {po ぽ} {pu ぷ}
+ Hiragana   {mi み} {me め} {ma ま} {mo も} {mu む}
+ Hiragana   {ri り} {re れ} {ra ら} {ro ろ} {ru る}
+ Hiragana   {wi ゐ} {we ゑ} {wa わ} {wo を}
+ Hiragana                               {vu ゔ}
+ Hiragana            {ya  や}  {yo  よ}  {yu  ゆ}
+ Hiragana           {kya きゃ} {kyo きょ} {kyu きゅ}
+ Hiragana           {gya ぎゃ} {gyo ぎょ} {gyu ぎゅ}
+ Hiragana           {sya しゃ} {syo しょ} {syu しゅ}
+ Hiragana           {sha しゃ} {sho しょ} {shu しゅ}
+ Hiragana           {zya じゃ} {zyo じょ} {zyu じゅ}
+ Hiragana            {ja じゃ}  {jo じょ}  {ju じゅ}
+ Hiragana           {tya ちゃ} {tyo ちょ} {tyu ちゅ}
+ Hiragana           {cha ちゃ} {cho ちょ} {chu ちゅ}
+ Hiragana           {dya ぢゃ} {dyo ぢょ} {dyu ぢゅ}
+ Hiragana           {nya にゃ} {nyo にょ} {nyu にゅ}
+ Hiragana           {hya ひゃ} {hyo ひょ} {hyu ひゅ}
+ Hiragana           {bya びゃ} {byo びょ} {byu びゅ}
+ Hiragana           {pya ぴゃ} {pyo ぴょ} {pyu ぴゅ}
+ Hiragana           {mya みゃ} {myo みょ} {myu みゅ}
+ Hiragana           {rya りゃ} {ryo りょ} {ryu りゅ}
+ Hiragana  {n ん} {: っ} {- ー} {' ゝ}{_" ゞ} {· ・}
+ Hiragana   {'i ぃ} {'e ぇ} {'a ぁ} {'o ぉ} {'u ぅ}
+ Hiragana         {'ke ゖ}{'ka ゕ}
+ Hiragana                              {'tu っ}
+ Hiragana                             {'tsu っ}
+ Hiragana                {'wa ゎ}
+ Hiragana                {'ya ゃ}{'yo ょ}{'yu ゅ}
+ Hiragana  {yori ゟ}
+ 
+ Hiragana    {и い}  {э え}  {а あ}  {о お}  {у う}
+ Hiragana   {ки き} {кэ け} {ка か} {ко こ} {ку く}
+ Hiragana   {ги ぎ} {гэ げ} {га が} {го ご} {гу ぐ}
+ Hiragana   {си し} {сэ せ} {са さ} {со そ} {су す}
+ Hiragana   {зи じ} {зэ ぜ} {за ざ} {зо ぞ} {зу ず}
+ Hiragana  {дзи じ}{дзэ ぜ}{дза ざ}{дзо ぞ}{дзу ず}
+ Hiragana   {ти ち} {тэ て} {та た} {то と} {ту つ}
+ Hiragana                               {цу つ}
+ Hiragana   {ди ぢ} {дэ で} {да だ} {до ど} {ду づ}
+ Hiragana   {ни に} {нэ ね} {на な} {но の} {ну ぬ}
+ Hiragana   {хи ひ} {хэ へ} {ха は} {хо ほ} {ху ふ}
+ Hiragana                               {фу ふ}
+ Hiragana   {би び} {бэ べ} {ба ば} {бо ぼ} {бу ぶ}
+ Hiragana   {пи ぴ} {пэ ぺ} {па ぱ} {по ぽ} {пу ぷ}
+ Hiragana   {ми み} {мэ め} {ма ま} {мо も} {му む}
+ Hiragana   {ри り} {рэ れ} {ра ら} {ро ろ} {ру る}
+ Hiragana   {ви ゐ} {вэ ゑ} {ва わ} {во を}
+ Hiragana                              {'ву ゔ}
+ Hiragana             {я  や}   {ё  よ}   {ю  ゆ}
+ Hiragana            {кя きゃ}  {кё きょ}  {кю きゅ}
+ Hiragana            {гя ぎゃ}  {гё ぎょ}  {гю ぎゅ}
+ Hiragana            {ся しゃ}  {сё しょ}  {сю しゅ}
+ Hiragana            {зя じゃ}  {зё じょ}  {зю じゅ}
+ Hiragana           {дзя じゃ} {дзё じょ} {дзю じゅ}
+ Hiragana            {тя ちゃ}  {тё ちょ}  {тю ちゅ}
+ Hiragana            {дя ぢゃ}  {дё ぢょ}  {дю ぢゅ}
+ Hiragana            {ня にゃ}  {нё にょ}  {ню にゅ}
+ Hiragana            {хя ひゃ}  {хё ひょ}  {хю ひゅ}
+ Hiragana            {бя びゃ}  {бё びょ}  {бю びゅ}
+ Hiragana            {пя ぴゃ}  {пё ぴょ}  {пю ぴゅ}
+ Hiragana            {мя みゃ}  {мё みょ}  {мю みゅ}
+ Hiragana            {ря りゃ}  {рё りょ}  {рю りゅ}
+ Hiragana   {н ん}
+ Hiragana   {'и ぃ} {'э ぇ} {'а ぁ} {'о ぉ} {'у ぅ}
+ Hiragana         {'кэ ゖ}{'ка ゕ}
+ Hiragana                              {'ту っ}
+ Hiragana                              {'цу っ}
+ Hiragana                {'ва ゎ}
+ Hiragana                 {'я ゃ} {'ё ょ} {'ю ゅ}
+ Hiragana  {ёри ゟ}
+ 
+ Hiragana  {" "  "　"}   % ideographic space
+ 
+}

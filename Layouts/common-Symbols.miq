@@ -1,0 +1,557 @@
+﻿{ Modes
+ -
+ - shift
+ + Var
+ + Var shift
+ + shift
+}
+
+{ Keys
+ `   `  ~  ~  ∼   % ascii tilde         tilde operator
+ 1   1  !  ‽  „   % interrobang         low left quote
+ 2   2  @  «  “   % left angle quote    left quote
+ 3   3  #  »  ”   % right angle quote   right quote
+ 4   4  $  §  €   % section sign        euro
+ 5   5 _%  °  ‰   % degree              per mille
+ 6   6  ^  ¬  √   % not sign            square root
+ 7   7  &  ∞  ÷   % infinity            division sign
+ 8   8  *  ×  ·   % multiplication      middle dot
+ 9   9  (  ‘  ‹   % left single quote   l single angle quote
+ 0   0  )  ’  ›   % right single quote  r single angle quote
+ -   - __  —  –   % em-dash             en-dash
+ =   =  +  −  ≈   % minus               almost equals
+ 
+ [   [ _{  [ _{   % ascii left bracket  ascii left brace
+ ]   ] _}  ] _}   % ascii right bracket ascii right brace
+ \   \  |  |  ¦   % ascii vertical line broken bar
+ 
+ ;   ;  :  ː  ˑ   % ipa long            ipa half-long
+ '   ' _"  ˈ  ˌ   % ipa primary stress  ipa secondary stress
+ ,   ,  <  <  〈   % ascii less-then     left angle bracket
+ .   .  >  >  〉   % ascii greater-then  right angle bracket
+ /   /  ?  …  ‥   % ellipsis            two-dot leader
+ 
+ _   _  _  ,  ?   % ascii comma         ascii question mark
+ 
+ % the last mode here is {+ shift}
+ Numpad0     0 _ ○  □  ∅   % circle    square    empty set
+ Numpad1     1 _ ↙  ⇙  ⌊   % arrow     dbl arrow left floor
+ Numpad2     2 _ ∪  ⊔  ∨   % union     sq cup    or
+ Numpad3     3 _ ↘  ⇘  ⌋   % arrow     dbl arrow right floor
+ Numpad4     4 _ ⊂  ⊏  ∈   % subset    sq subset belongs
+ Numpad5     5 _ ′  ″  ∎   % prime     dbl prime end of proof
+ Numpad6     6 _ ⊃  ⊐  ∋   % superset  sq supset contains
+ Numpad7     7 _ ↖  ⇖  ⌈   % arrow     dbl rrow  left ceiling
+ Numpad8     8 _ ∩  ⊓  ∧   % intersect sq cap    and
+ Numpad9     9 _ ↗  ⇗  ⌉   % arrow     dbl rrow  right ceiling
+ NumpadDot   . _ ∘  ∙  ⋅   % ring op   bullet op dot op
+ NumpadAdd   + _ ∑  ⊤  +   % sum       top       ascii plus
+ NumpadSub   - _ ∖  ⊥  −   % set minus bottom    minus
+ NumpadMult  * _ ∏  ⋆  ∗   % product   star op   asterisk op
+ NumpadDiv   / _ ∣  ⁄  ∕   % divides   fraction  division slash
+ 
+ Left    _  _  ←  ⇐
+ Right   _  _  →  ⇒
+ Up      _  _  ↑  ⇑
+ Down    _  _  ↓  ⇓
+ 
+ Insert  _  _  
+ Delete  _  _  
+ Home    _  _  
+ End     _  _  
+ PgUp    _  _  
+ PgDn    _  _  
+ 
+ Space      " "     " "       ␣  ▯
+ Enter       _       _        ¶  ⏎
+ Delete      _       _        ⌦  ⌧
+ BackSpace  {back 1}{back 1}  ⌫
+}
+
+{ Substitutions
+ 
+ { Special
+  BOM  _FEFF_ % zero-width no-break space (BOM)
+  4m   " "    % em-quad space
+  4n   " "    % en-quad space
+  m    " "    % em space
+  n    " "    % en space
+  m/3  " "    % 3-per-em space
+  m/4  " "    % 4-per-em space
+  m/6  " "    % 6-per-em space
+  f    " "    % figure space
+  p    " "    % punctuation space
+  t    " "    % thin space
+  h    " "    % hair space
+  mm   " "    % medium mathematical space
+  i    "　"   % ideographic space
+  0    "​"    % zero-width space
+  .    " "   % no-break space
+  ,    " "   % narrow no-break space
+  -s   "­"    % soft hyphen
+  -h   ‐     % hyphen
+  -.   ‑     % non-breaking hyphen
+  -m   —     % em-dash
+  -n   –     % en-dash
+  -f   ‒     % figure dash
+  -hb  ―     % horizontal bar
+  __nj "‌"    % zero-width non-joiner
+  __j  "‍"    % zero-width joiner
+  __w  "⁠"    % word joiner
+  __g  "͏"    % grapheme separator (misnamed ‘joiner’)
+ }
+ 
+ { Ligature
+  
+  .. ‥
+  ... …
+  !! ‼
+  !? ⁉
+  ?! ⁈
+  ?? ⁇
+  ** ⁑
+  *** ⁂
+  
+  +− ±
+  +- ±
+  −+ ∓
+  -+ ∓
+  =+ ⩱
+  += ⩲
+  −−− ≡
+  −−−− ≣
+  == ⩵
+  === ⩶
+  −: ∹
+  :−: ∺
+  := ≔
+  =: ≕
+  ::= ⩴
+  def= ≝
+  ?= ≟
+  ?< ⩻
+  ?> ⩼
+  −∼ ≂
+  ∼− ≃
+  ∼= ≅
+  ∼≠ ≆
+  ∼∼ ≈
+  ≈− ≊
+  ≈− ≊
+  ∼∼− ≊
+  ∼∼∼ ≋
+  ∽= ≌
+  =∼ ⩳
+  ∼−∼ ⩬
+  ≈= ⩰
+  ∼∼= ⩰
+  <= ⩽
+  >= ⩾
+  <− ≤
+  >− ≥
+  <−− ≦
+  >−− ≧
+  <≠ ≨
+  >≠ ≩
+  << ≪
+  >> ≫
+  <∼ ≲
+  >∼ ≳
+  ≺= ≼
+  ≻= ≽
+  ≺∼ ≾
+  ≻∼ ≿
+  ⊂= ⊆
+  ⊃= ⊇
+  ⊂≠ ⊊
+  ⊃≠ ⊋
+  ⊏= ⊑
+  ⊐= ⊒
+  −∘ ⊸
+  ∘− ⟜
+  ∨− ⊻
+  −∧ ⊼
+  −∨ ⊽
+  ∽− ⋍
+  <<< ⋘
+  >>> ⋙
+  −< ⋜
+  −> ⋝
+  =≺ ⋞
+  =≻ ⋟
+  ⊏≠ ⋤
+  ⊐≠ ⋥
+  <≁ ⋦
+  >≁ ⋧
+  ≺≁ ⋨
+  ≻≁ ⋩
+  <≈ ⪅
+  <∼∼ ⪅
+  >≈ ⪆
+  >∼∼ ⪆
+  <≄ ⪉
+  >≄ ⪊
+  =< ⪕
+  => ⪖
+  ∼< ⪝
+  ∼> ⪞
+  ≺− ⪯
+  ≻− ⪰
+  ≺≺ ⪻
+  ≻≻ ⪼
+  
+  __∣ ⟂
+  ∣__ ⟂
+  ∣− ⊢
+  −∣ ⊣
+  ∣- ⊦
+  ∣-- ⊧
+  ∣= ⊨
+  =∣ ⫤
+  =∣∣ ⫥
+  ∣−−− ⫢
+  ∣∣− ⊩
+  −∣∣ ⫣
+  ∣∣∣- ⊪
+  ∣∣= ⊫
+  =∣∣= ⟚
+  −∣∣− ⟛
+  
+  )( ≬
+  (( ⸨
+  )) ⸩
+  ⟨⟨ ⟪
+  ⟩⟩ ⟫
+  || ‖
+  ∣∣ ∥
+  ∣∣∣ ⫴
+  // ⫽
+  /// ⫻
+  
+  ′′ ″
+  ′′′ ‴
+  ′′′′ ⁗
+  ‵‵ ‶
+  ‵‵‵ ‷
+  
+  1/ ⅟
+  1/2 ½
+  0/3 ↉
+  1/3 ⅓
+  2/3 ⅔
+  1/4 ¼
+  3/4 ¾
+  1/5 ⅕
+  2/5 ⅖
+  3/5 ⅗
+  4/5 ⅘
+  1/6 ⅙
+  5/6 ⅚
+  1/7 ⅐
+  1/8 ⅛
+  3/8 ⅜
+  5/8 ⅝
+  7/8 ⅞
+  1/9 ⅑
+  1/10 ⅒
+  3√ ∛
+  4√ ∜
+  
+  ∫∫ ∬
+  ∫∫∫ ∭
+  ∫∫∫∫ ⨌
+  ∫○ ∮
+  ∫∫○ ∯
+  ∫∫∫○ ∰
+  ∬○ ∯
+  ∭○ ∰
+  ∫↷ ∱
+  ∫⟳ ∲
+  ∫⟲ ∳
+  
+  (C) ©
+  (c) ©
+  (P) ℗
+  (p) ℗
+  (R) ®
+  (r) ®
+  SM ℠
+  sm ℠
+  TM ™
+  tm ™
+  
+  Ohm Ω
+  ohm Ω
+  Mho ℧
+  mho ℧
+  
+  ↑↓ ↕
+  ↓↑ ↕
+  ←→ ↔
+  ⇑⇓ ⇕
+  ⇓⇑ ⇕
+  ⇐⇒ ⇔
+  
+  ♂♀ ⚤
+  ♀♂ ⚤
+  ♂♂ ⚣
+  ♀♀ ⚢
+  
+ }
+ 
+ { Turn
+  __ ‾
+  ! ¡
+  ? ¿
+  ¿ ⸮
+  ‽ ⸘
+  ; ⸵
+  ⸵ ⁏
+  “ „
+  ” ‟
+  ‘ ‚
+  ’ ‛
+  & ⅋
+  ¶ ⁋
+  † ⸸
+  ′ ‵
+  ″ ‶
+  ‴ ‷
+  2 ↊
+  3 ↋
+  Ω ℧
+  ± ∓
+  ¬ ⌐
+  ∈ ⫙
+  ∋ ⟒
+  ⫙ ⟒
+  ⟒ ⫙
+  ∏ ∐
+  ∅ ⦰
+  ∼ ∽
+  ∽ ≀
+  ∆ ∇
+  ≅ ≌
+  ≃ ⋍
+  ¬ ⌐
+  ⌐ ⌙
+  ⊸ ⟜
+  ∤ ⫮
+ }
+ 
+ { Superscript
+  0 ⁰
+  1 ¹
+  2 ²
+  3 ³
+  4 ⁴
+  5 ⁵
+  6 ⁶
+  7 ⁷
+  8 ⁸
+  9 ⁹
+  + ⁺
+  − ⁻
+  - ⁻
+  = ⁼
+  ( ⁽
+  ) ⁾
+ }
+ 
+ { Subscript
+  0 ₀
+  1 ₁
+  2 ₂
+  3 ₃
+  4 ₄
+  5 ₅
+  6 ₆
+  7 ₇
+  8 ₈
+  9 ₉
+  + ₊
+  − ₋
+  - ₋
+  = ₌
+  ( ₍
+  ) ₎
+ }
+  
+ { Dot
+  + ∔
+  − ∸
+  = ≐
+  ⩦ ≑
+  ≡ ⩧
+  ∈ ⋵
+  × ⨰
+  ∧ ⩑
+  ∨ ⩒
+  ∼ ⩪
+  ⩽ ⪁
+  ⩾ ⪂
+ }
+ 
+ { DotBelow
+  = ⩦
+  ≐ ≑
+  ⩪ ⩫
+  − ⨪
+  + ⨥
+ }
+ 
+ { DotInside
+  < ⋖
+  > ⋗
+  ∧ ⟑
+  ∨ ⟇
+  ⩽ ⩿
+  ⩾ ⪀
+  ⪕ ⪗
+  ⪖ ⪘
+  ⊂ ⪽
+  ⊃ ⪾
+ }
+
+ { Stroke
+  [ ⁅
+  ] ⁆
+  ∣ ⟊
+  ∥ ⫲
+  ⫴ ⫵
+ }
+ 
+ { SlantedStroke
+  ∃ ∄
+  ∈ ∉
+  ∋ ∌
+  ∼ ≁
+  ∣ ∤
+  ∥ ∦
+  ≃ ≄
+  = ≠
+  ≅ ≇
+  ≈ ≉
+  ≡ ≢
+  < ≮
+  > ≯
+  ≤ ≰
+  ≥ ≱
+  ≲ ≴
+  ≳ ≵
+  ≶ ≸
+  ≷ ≹
+  ≺ ⊀
+  ≻ ⊁
+  ⊂ ⊄
+  ⊃ ⊅
+  ⊆ ⊈
+  ⊇ ⊉
+  ⊢ ⊬
+  ⊨ ⊭
+  ⊩ ⊮
+  ⊫ ⊯
+  ≼ ⋠
+  ≽ ⋡
+  ⊑ ⋢
+  ⊒ ⋣
+  ⊲ ⋪
+  ⊳ ⋫
+  ⊴ ⋬
+  ⊵ ⋭
+ }
+ 
+ { EnclosingCircle
+  + ⊕
+  − ⊖
+  × ⊗
+  / ⊘
+  ⋅ ⊙
+  ∘ ⊚
+  ∗ ⊛
+  = ⊜
+  - ⊝
+  ∣ ⦶
+  \ ⦸
+  ∥ ⦷
+  ⟂ ⦹
+  < ⧀
+  > ⧁
+  ÷ ⨸
+ }
+ 
+ { EnclosingSquare
+  + ⊞
+  − ⊟
+  × ⊠
+  ∙ ⊡
+  ∧ ⟎
+  ∨ ⟏
+  / ⧄
+  \ ⧅
+  ∗ ⧆
+ }
+ 
+ { DoubleStruck
+  __ ‗
+  ⊂ ⋐
+  ⊃ ⋑
+  ∩ ⋒
+  ∪ ⋓
+  ⊓ ⩎
+  ⊔ ⩏
+  ∧ ⩓
+  ∨ ⩔
+  < ⪡
+  > ⪢
+  ( ⦅
+  ) ⦆
+  [ ⟦
+  ] ⟧
+  { ⦃
+  } ⦄
+  ∣ ⫾
+  ∑ ⅀
+  ! ❕
+  ? ❔
+  ‚ ❟
+  ‘ ❛
+  ’ ❜
+  „ ❠
+  “ ❝
+  ” ❞
+ }
+ 
+ { N-ary
+  Σ ∑
+  Π ∏
+  ∧ ⋀
+  ∨ ⋁
+  ∩ ⋂
+  ∪ ⋃
+  ⊓ ⨅
+  ⊔ ⨆
+  ⊤ ⟙
+  ⊥ ⟘
+  ⊕ ⨁
+  ⊗ ⨂
+  ⊙ ⨀
+  × ⨉
+  ⫾ ⫿
+ }
+ 
+ { Symbol
+  A ∀   % for all
+  a ∀   % for all
+  E ∃   % there exists
+  e ∃   % there exists
+  D ∆   % laplace
+  d ∂   % partial
+  M µ   % micro sign
+  m µ   % micro sign
+  μ µ   % micro sign
+  S ∫   % integral
+  s ∫   % integral
+ }
+ 
+}

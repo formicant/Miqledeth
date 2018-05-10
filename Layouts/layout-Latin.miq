@@ -1,0 +1,1273 @@
+﻿{ Layout
+ Name       Latin
+ Language   en 
+ IconIndex  1
+}
+
+{ Modes
+ -
+ - shift
+ + Var
+ + Var shift
+}
+
+{ Keys
+ Q   q  Q  ø  Ø
+ W   w  W  ɯ  ɰ
+ E   e  E  ɛ  Ɛ
+ R   r  R  ɾ  ʁ
+ T   t  T  þ  Þ
+ Y   y  Y  ɣ  Ɣ
+ U   u  U  ʊ  Ʊ
+ I   i  I  ı  İ
+ O   o  O  ɔ  Ɔ
+ P   p  P  ʔ  ʕ
+ 
+ A   a  A  ɑ  Ɑ
+ S   s  S  ß  ẞ
+ D   d  D  ð  Ð
+ F   f  F  ɸ  ƒ
+ G   g  G  ɡ  Ɡ
+ H   h  H  ɦ  ɧ
+ J   j  J  ɪ  Ɪ
+ K   k  K  ƙ  Ƙ
+ L   l  L  ɬ  Ɬ
+ 
+ Z   z  Z  ʒ  Ʒ
+ X   x  X  ʃ  ſ
+ C   c  C  ə  Ə
+ V   v  V  ɤ  ʌ
+ B   b  B  ɞ  ʚ
+ N   n  N  ŋ  Ŋ
+ M   m  M  ɱ  Ɱ
+}
+
+{ Substitutions
+ 
+ { Ligature
+  AA Ꜳ
+  Aa Ꜳ
+  aa ꜳ
+  AE Æ
+  Ae Æ
+  ae æ
+  aə ꬱ
+  AO Ꜵ
+  Ao Ꜵ
+  ao ꜵ
+  AU Ꜷ
+  Au Ꜷ
+  au ꜷ
+  AV Ꜹ
+  Av Ꜹ
+  av ꜹ
+  AY Ꜽ
+  Ay Ꜽ
+  ay ꜽ
+  db ȸ
+  DZ Ǳ
+  Dz ǲ
+  d|z ǳ
+  dz ʣ
+  DŽ Ǆ
+  Dž ǅ
+  dž ǆ
+  dʑ ʥ
+  dʒ ʤ
+  əɵ ꭂ
+  əø ꭁ
+  ff ﬀ
+  ffi ﬃ
+  ffl ﬄ
+  fi ﬁ
+  fl ﬂ
+  fŋ ʩ
+  HV Ƕ
+  Hv Ƕ
+  hv ƕ
+  ie ꭡ
+  IJ Ĳ
+  Ij Ĳ
+  ij ĳ
+  LJ Ǉ
+  Lj ǈ
+  lj ǉ
+  LL Ỻ
+  Ll Ỻ
+  ll ỻ
+  ls ʪ
+  lz ʫ
+  lʒ ɮ
+  ’n ŉ
+  NJ Ǌ
+  Nj ǋ
+  nj ǌ
+  OE Œ
+  Oe Œ
+  oe œ
+  oə ꭀ
+  OO Ꝏ
+  Oo Ꝏ
+  oo ꝏ
+  ɔe ꭢ
+  co ꭃ
+  cø ꭄ
+  qp ȹ
+  st ﬆ
+  ſt ﬅ
+  tɕ ʨ
+  ts ʦ
+  tʃ ʧ
+  TƷ Ꜩ
+  Tʒ Ꜩ
+  tʒ ꜩ
+  ue ᵫ
+  uo ꭣ
+  VY Ꝡ
+  Vy Ꝡ
+  vy ꝡ
+  ww ʬ
+ }
+ 
+ { Turn
+  A Ɐ
+  a ɐ
+  Ɑ Ɒ
+  ɑ ɒ
+  ɒ ꭤ
+  æ ᴂ
+  C Ɔ
+  c ɔ
+  ɔ ᴒ
+  ᴄ ᴐ
+  E Ǝ
+  e ɘ
+  ɘ ǝ
+  ᴇ ⱻ
+  Ɛ Ɜ
+  ɛ ɜ
+  ɜ ᴈ
+  ɞ ʚ
+  F Ⅎ
+  f ɟ
+  g ᵷ
+  ɡ ᵷ
+  h ɥ
+  i ᴉ
+  K Ʞ
+  k ʞ
+  M Ɯ
+  m ɯ
+  ɯ ᴟ
+  ɴ ᴎ
+  o ᴑ
+  ø ᴓ
+  œ ᴔ
+  Q ℺
+  r ɹ
+  ʀ ʁ
+  ʁ ᴙ
+  ᴙ ᴚ
+  ɽ ⱹ
+  ɼ ɺ
+  ɾ ɿ
+  ʃ ʅ
+  ʆ ƪ
+  T Ʇ
+  t ʇ
+  u ᴝ
+  ü ᴞ
+  V Ʌ
+  v ʌ
+  w ʍ
+  y ʎ
+  Ʒ Ƹ
+  ʒ ƹ
+  ʔ ʕ
+  ʕ ʖ
+  ʡ ʢ
+  ʢ ƾ
+  ˀ ˁ
+ }
+ 
+ { SmallCaps
+  a ᴀ
+  æ ᴁ
+  b ʙ
+  ƀ ᴃ
+  c ᴄ
+  d ᴅ
+  ð ᴆ
+  e ᴇ
+  ɘ ⱻ
+  g ɢ
+  ɠ ʛ
+  h ʜ
+  i ɪ
+  ɨ ᵻ
+  j ᴊ
+  k ᴋ
+  l ʟ
+  ł ᴌ
+  m ᴍ
+  n ɴ
+  o ᴏ
+  ɔ ᴐ
+  œ ɶ
+  ȣ ᴕ
+  p ᴘ
+  r ʀ
+  ɹ ʁ
+  t ᴛ
+  u ᴜ
+  ʉ ᵾ
+  v ᴠ
+  w ᴡ
+  y ʏ
+  z ᴢ
+  ʒ ᴣ
+ }
+ 
+ { Superscript
+  A ᴬ
+  a ᵃ
+  ɐ ᵄ
+  ɑ ᵅ
+  Æ ᴭ
+  ᴂ ᵆ
+  ᴥ ᵜ
+  B ᴮ
+  b ᵇ
+  Ƀ ᴯ
+  c ᶜ
+  ɕ ᶝ
+  D ᴰ
+  d ᵈ
+  ð ᶞ
+  E ᴱ
+  e ᵉ
+  Ǝ ᴲ
+  ə ᵊ
+  ɛ ᵋ
+  ᴈ ᵌ
+  ɜ ᶟ
+  ʚ ᶛ
+  f ᶠ
+  ɸ ᶲ
+  G ᴳ
+  g ᵍ
+  ɡ ᶢ
+  ɣ ˠ
+  H ᴴ
+  h ʰ
+  ɦ ʱ
+  ɥ ᶣ
+  ꜧ ꭜ
+  I ᴵ
+  i ⁱ
+  ɪ ᶦ
+  ᴉ ᵎ
+  ɨ ᶤ
+  ᵻ ᶧ
+  ɩ ᶥ
+  J ᴶ
+  j ʲ
+  ɟ ᶡ
+  ʝ ᶨ
+  K ᴷ
+  k ᵏ
+  L ᴸ
+  l ˡ
+  ʟ ᶫ
+  ɫ ꭞ
+  ᶅ ᶪ
+  ɭ ᶩ
+  M ᴹ
+  m ᵐ
+  ɱ ᶬ
+  ɯ ᵚ
+  ɰ ᶭ
+  N ᴺ
+  n ⁿ
+  ɴ ᶰ
+  ᴎ ᴻ
+  ɲ ᶮ
+  ɳ ᶯ
+  ŋ ᵑ
+  O ᴼ
+  o ᵒ
+  ɵ ᶱ
+  ɔ ᵓ
+  Ȣ ᴽ
+  P ᴾ
+  p ᵖ
+  R ᴿ
+  r ʳ
+  ɹ ʴ
+  ɻ ʵ
+  ʁ ʶ
+  s ˢ
+  ʂ ᶳ
+  ʃ ᶴ
+  T ᵀ
+  t ᵗ
+  ƫ ᶵ
+  U ᵁ
+  u ᵘ
+  ᴜ ᶸ
+  ʉ ᶶ
+  ꭒ ꭟ
+  ʊ ᶷ
+  ᴝ ᵙ
+  V ⱽ
+  v ᵛ
+  ʋ ᶹ
+  ʌ ᶺ
+  W ᵂ
+  w ʷ
+  x ˣ
+  y ʸ
+  z ᶻ
+  ʐ ᶼ
+  ʑ ᶽ
+  ʒ ᶾ
+  ʔ ˀ
+  ʕ ˤ
+ }
+ 
+ { Subscript
+  a ₐ
+  e ₑ
+  ə ₔ
+  h ₕ
+  i ᵢ
+  j ⱼ
+  k ₖ
+  l ₗ
+  m ₘ
+  n ₙ
+  o ₒ
+  p ₚ
+  r ᵣ
+  s ₛ
+  t ₜ
+  u ᵤ
+  v ᵥ
+  x ₓ
+ }
+ 
+ { Combining
+  a  ͣ
+  ä  ᷲ
+  ɑ  ᷧ
+  æ  ᷔ
+  ꜵ  ᷕ
+  ꜹ  ᷖ
+  b  ᷨ
+  c  ͨ
+  ç  ᷗ
+  d  ͩ
+  ð  ᷙ
+  ꝺ  ᷘ
+  e  ͤ
+  ə  ᷪ
+  f  ᷫ
+  g  ᷚ
+  ɢ  ᷛ
+  h  ͪ
+  i  ͥ
+  k  ᷜ
+  l  ᷝ
+  ꬸ  ᷬ
+  ʟ  ᷞ
+  m  ͫ
+  ᴍ  ᷟ
+  n  ᷠ
+  ɴ  ᷡ
+  o  ͦ
+  ö  ᷳ
+  p  ᷮ
+  r  ͬ
+  ʀ  ᷢ
+  ꝛ  ᷣ
+  s  ᷤ
+  ʃ  ᷯ
+  ſ  ᷥ
+  t  ͭ
+  u  ͧ
+  ü  ᷴ
+  v  ͮ
+  w  ᷱ
+  x  ͯ
+  z  ᷦ
+ }
+ 
+ { Acute
+  A Á
+  a á
+  Â Ấ
+  â ấ
+  Ă Ắ
+  ă ắ
+  Å Ǻ
+  å ǻ
+  Æ Ǽ
+  æ ǽ
+  C Ć
+  c ć
+  Ç Ḉ
+  ç ḉ
+  E É
+  e é
+  Ê Ế
+  ê ế
+  Ē Ḗ
+  ē ḗ
+  G Ǵ
+  g ǵ
+  I Í
+  i í
+  Ï Ḯ
+  ï ḯ
+  K Ḱ
+  k ḱ
+  L Ĺ
+  l ĺ
+  M Ḿ
+  m ḿ
+  N Ń
+  n ń
+  O Ó
+  o ó
+  Ô Ố
+  ô ố
+  Ō Ṓ
+  ō ṓ
+  Õ Ṍ
+  õ ṍ
+  Ø Ǿ
+  ø ǿ
+  Ơ Ớ
+  ơ ớ
+  P Ṕ
+  p ṕ
+  R Ŕ
+  r ŕ
+  S Ś
+  s ś
+  U Ú
+  u ú
+  Ü Ǘ
+  ü ǘ
+  Ũ Ṹ
+  ũ ṹ
+  Ư Ứ
+  ư ứ
+  W Ẃ
+  w ẃ
+  Y Ý
+  y ý
+  Z Ź
+  z ź
+ }
+ 
+ { Grave
+  A À
+  a à
+  Â Ầ
+  â ầ
+  Ă Ằ
+  ă ằ
+  E È
+  e è
+  Ê Ề
+  ê ề
+  Ē Ḕ
+  ē ḕ
+  I Ì
+  i ì
+  N Ǹ
+  n ǹ
+  O Ò
+  o ò
+  Ô Ồ
+  ô ồ
+  Ō Ṑ
+  ō ṑ
+  Ơ Ờ
+  ơ ờ
+  U Ù
+  u ù
+  Ü Ǜ
+  ü ǜ
+  Ư Ừ
+  ư ừ
+  W Ẁ
+  w ẁ
+  Y Ỳ
+  y ỳ
+ }
+ 
+ { Diaeresis
+  A Ä
+  a ä
+  E Ë
+  e ë
+  H Ḧ
+  h ḧ
+  I Ï
+  i ï
+  O Ö
+  o ö
+  Õ Ṏ
+  õ ṏ
+  t ẗ
+  U Ü
+  u ü
+  Ū Ṻ
+  ū ṻ
+  W Ẅ
+  w ẅ
+  X Ẍ
+  x ẍ
+  Y Ÿ
+  y ÿ
+ }
+ 
+ { DiaeresisBelow
+  U Ṳ
+  u ṳ
+ }
+ 
+ { Tilde
+  A Ã
+  a ã
+  Â Ẫ
+  â ẫ
+  Ă Ẵ
+  ă ẵ
+  E Ẽ
+  e ẽ
+  Ê Ễ
+  ê ễ
+  I Ĩ
+  i ĩ
+  N Ñ
+  n ñ
+  O Õ
+  o õ
+  Ô Ỗ
+  ô ỗ
+  Ơ Ỡ
+  ơ ỡ
+  U Ũ
+  u ũ
+  Ư Ữ
+  ư ữ
+  V Ṽ
+  v ṽ
+  Y Ỹ
+  y ỹ
+ }
+ 
+ { TildeBelow
+  E Ḛ
+  e ḛ
+  I Ḭ
+  i ḭ
+  U Ṵ
+  u ṵ
+ }
+ 
+ { Circumflex
+  A Â
+  a â
+  Ạ Ậ
+  ạ ậ
+  C Ĉ
+  c ĉ
+  E Ê
+  e ê
+  Ẹ Ệ
+  ẹ ệ
+  G Ĝ
+  g ĝ
+  H Ĥ
+  h ĥ
+  I Î
+  i î
+  J Ĵ
+  j ĵ
+  O Ô
+  o ô
+  Ọ Ộ
+  ọ ộ
+  S Ŝ
+  s ŝ
+  U Û
+  u û
+  W Ŵ
+  w ŵ
+  Y Ŷ
+  y ŷ
+  Z Ẑ
+  z ẑ
+ }
+ 
+ { CircumflexBelow
+  D Ḓ
+  d ḓ
+  E Ḙ
+  e ḙ
+  L Ḽ
+  l ḽ
+  N Ṋ
+  n ṋ
+  T Ṱ
+  t ṱ
+  U Ṷ
+  u ṷ
+ }
+ 
+ { Caron
+  A Ǎ
+  a ǎ
+  C Č
+  c č
+  D Ď
+  d ď
+  E Ě
+  e ě
+  G Ǧ
+  g ǧ
+  H Ȟ
+  h ȟ
+  I Ǐ
+  i ǐ
+  j ǰ
+  K Ǩ
+  k ǩ
+  L Ľ
+  l ľ
+  N Ň
+  n ň
+  O Ǒ
+  o ǒ
+  R Ř
+  r ř
+  S Š
+  s š
+  T Ť
+  t ť
+  U Ǔ
+  u ǔ
+  Ü Ǚ
+  ü ǚ
+  Z Ž
+  z ž
+  Ʒ Ǯ
+  ʒ ǯ
+ }
+ 
+ { Breve
+  A Ă
+  a ă
+  Ạ Ặ
+  ạ ặ
+  E Ĕ
+  e ĕ
+  Ȩ Ḝ
+  ȩ ḝ
+  G Ğ
+  g ğ
+  I Ĭ
+  i ĭ
+  O Ŏ
+  o ŏ
+  U Ŭ
+  u ŭ
+ }
+ 
+ { BreveBelow
+  H Ḫ
+  h ḫ
+ }
+ 
+ { Arch
+  A Ȃ
+  a ȃ
+  E Ȇ
+  e ȇ
+  I Ȋ
+  i ȋ
+  O Ȏ
+  o ȏ
+  R Ȓ
+  r ȓ
+  U Ȗ
+  u ȗ
+ }
+ 
+ { Macron
+  A Ā
+  a ā
+  Ȧ Ǡ
+  ȧ ǡ
+  Ä Ǟ
+  ä ǟ
+  Æ Ǣ
+  æ ǣ
+  E Ē
+  e ē
+  G Ḡ
+  g ḡ
+  I Ī
+  i ī
+  Ḷ Ḹ
+  ḷ ḹ
+  O Ō
+  o ō
+  Ȯ Ȱ
+  ȯ ȱ
+  Ö Ȫ
+  ö ȫ
+  Õ Ȭ
+  õ ȭ
+  Ǫ Ǭ
+  ǫ ǭ
+  Ṛ Ṝ
+  ṛ ṝ
+  U Ū
+  u ū
+  Ü Ǖ
+  ü ǖ
+  Y Ȳ
+  y ȳ
+ }
+ 
+ { MacronBelow
+  B Ḇ
+  b ḇ
+  D Ḏ
+  d ḏ
+  h ẖ
+  K Ḵ
+  k ḵ
+  L Ḻ
+  l ḻ
+  N Ṉ
+  n ṉ
+  R Ṟ
+  r ṟ
+  T Ṯ
+  t ṯ
+  Z Ẕ
+  z ẕ
+ }
+ 
+ { Dot
+  A Ȧ
+  a ȧ
+  B Ḃ
+  b ḃ
+  C Ċ
+  c ċ
+  D Ḋ
+  d ḋ
+  E Ė
+  e ė
+  F Ḟ
+  f ḟ
+  G Ġ
+  g ġ
+  H Ḣ
+  h ḣ
+  I İ
+  i ı
+  j ȷ
+  ɉ ɟ
+  M Ṁ
+  m ṁ
+  N Ṅ
+  n ṅ
+  O Ȯ
+  o ȯ
+  P Ṗ
+  p ṗ
+  R Ṙ
+  r ṙ
+  S Ṡ
+  s ṡ
+  Ś Ṥ
+  ś ṥ
+  Š Ṧ
+  š ṧ
+  Ṣ Ṩ
+  ṣ ṩ
+  ſ ẛ
+  T Ṫ
+  t ṫ
+  W Ẇ
+  w ẇ
+  X Ẋ
+  x ẋ
+  Y Ẏ
+  y ẏ
+  Z Ż
+  z ż
+ }
+ 
+ { DotBelow
+  A Ạ
+  a ạ
+  Â Ậ
+  â ậ
+  Ă Ặ
+  ă ặ
+  B Ḅ
+  b ḅ
+  D Ḍ
+  d ḍ
+  E Ẹ
+  e ẹ
+  Ê Ệ
+  ê ệ
+  H Ḥ
+  h ḥ
+  I Ị
+  i ị
+  K Ḳ
+  k ḳ
+  L Ḷ
+  l ḷ
+  M Ṃ
+  m ṃ
+  N Ṇ
+  n ṇ
+  O Ọ
+  o ọ
+  Ô Ộ
+  ô ộ
+  Ơ Ợ
+  ơ ợ
+  R Ṛ
+  r ṛ
+  S Ṣ
+  s ṣ
+  Ṡ Ṩ
+  ṡ ṩ
+  T Ṭ
+  t ṭ
+  U Ụ
+  u ụ
+  Ư Ự
+  ư ự
+  V Ṿ
+  v ṿ
+  W Ẉ
+  w ẉ
+  Y Ỵ
+  y ỵ
+  Z Ẓ
+  z ẓ
+ }
+ 
+ { Ring
+  A Å
+  a å
+  U Ů
+  u ů
+  w ẘ
+  y ẙ
+ }
+ 
+ { RingBelow
+  A Ḁ
+  a ḁ
+ }
+ 
+ { DoubleAcute
+  O Ő
+  o ő
+  U Ű
+  u ű
+ }
+ 
+ { DoubleGrave
+  A Ȁ
+  a ȁ
+  E Ȅ
+  e ȅ
+  I Ȉ
+  i ȉ
+  O Ȍ
+  o ȍ
+  R Ȑ
+  r ȑ
+  U Ȕ
+  u ȕ
+ }
+ 
+ { CedillaOgonek
+  C Ç
+  c ç
+  Ć Ḉ
+  ć ḉ
+  D Ḑ
+  d ḑ
+  G Ģ
+  g ģ
+  H Ḩ
+  h ḩ
+  K Ķ
+  k ķ
+  L Ļ
+  l ļ
+  N Ņ
+  n ņ
+  R Ŗ
+  r ŗ
+  S Ş
+  s ş
+  T Ţ
+  t ţ
+  A Ą
+  a ą
+  Ę Ę
+  ę ę
+  I Į
+  i į
+  O Ǫ
+  o ǫ
+  Ō Ǭ
+  ō ǭ
+  U Ų
+  u ų
+ }
+ 
+ { CommaBelow
+  S Ș
+  s ș
+  T Ț
+  t ț
+ }
+ 
+ { HookAbove
+  A Ả
+  a ả
+  Â Ẩ
+  â ẩ
+  Ă Ẳ
+  ă ẳ
+  E Ẻ
+  e ẻ
+  Ê Ể
+  ê ể
+  I Ỉ
+  i ỉ
+  O Ỏ
+  o ỏ
+  Ô Ổ
+  ô ổ
+  Ơ Ở
+  ơ ở
+  U Ủ
+  u ủ
+  Ư Ử
+  ư ử
+  Y Ỷ
+  y ỷ
+ }
+ 
+ { MiddleTilde
+  b ᵬ
+  d ᵭ
+  f ᵮ
+  L Ɫ
+  l ɫ
+  ɫ ꬸ
+  m ᵯ
+  n ᵰ
+  p ᵱ
+  r ᵲ
+  ɾ ᵳ
+  s ᵴ
+  t ᵵ
+  z ᵶ
+ }
+ 
+ { Stroke
+  ɑ ꬰ
+  Ꜹ Ꜻ
+  ꜹ ꜻ
+  B Ƀ
+  b ƀ
+  ʙ ᴃ
+  C Ꞓ
+  c ꞓ
+  D Đ
+  d đ
+  e ꬳ
+  F Ꞙ
+  f ꞙ
+  G Ǥ
+  g ǥ
+  ɡ ǥ
+  H Ħ
+  h ħ
+  I Ɨ
+  i ɨ
+  ɪ ᵻ
+  ɩ ᵼ
+  J Ɉ
+  j ɉ
+  ȷ ɟ
+  K Ꝁ
+  k ꝁ
+  Ꝃ Ꝅ
+  ꝃ ꝅ
+  L Ƚ
+  l ƚ
+  Ƚ Ⱡ
+  ƚ ⱡ
+  O Ɵ
+  o ɵ
+  P Ᵽ
+  p ᵽ
+  R Ɍ
+  r ɍ
+  ʃ ʄ
+  ſ ẝ
+  T Ŧ
+  t ŧ
+  Þ Ꝥ
+  þ ꝥ
+  U Ʉ
+  u ʉ
+  ᴜ ᵾ
+  ʊ ᵿ
+  Y Ɏ
+  y ɏ
+  Z Ƶ
+  z ƶ
+  ʔ ʡ
+  ʕ ʢ
+  ʖ ƾ
+  ᵃ ª
+  ᵒ º
+ }
+ 
+ { SlantedStroke
+  A Ⱥ
+  a ⱥ
+  C Ȼ
+  c ȼ
+  E Ɇ
+  e ɇ
+  G Ꞡ
+  g ꞡ
+  ɡ ꞡ
+  h ℏ
+  K Ꞣ
+  k ꞣ
+  L Ł
+  l ł
+  ʟ ᴌ
+  N Ꞥ
+  n ꞥ
+  O Ø
+  o ø
+  ɔ ꬿ
+  R Ꞧ
+  r ꞧ
+  S Ꞩ
+  s ꞩ
+  ſ ẜ
+  T Ⱦ
+  t ⱦ
+  V Ꝟ
+  w ꝟ
+ }
+ 
+ { DotInside
+  L Ŀ
+  l ŀ
+  O ʘ
+  Ɔ Ꜿ
+  ɔ ꜿ
+ }
+ 
+ { Horn
+  O Ơ
+  o ơ
+  Ó Ớ
+  ó ớ
+  Ò Ờ
+  ò ờ
+  Õ Ỡ
+  õ ỡ
+  Ỏ Ở
+  ỏ ở
+  Ọ Ợ
+  ọ ợ
+  U Ư
+  u ư
+  Ú Ứ
+  ú ứ
+  Ù Ừ
+  ù ừ
+  Ũ Ữ
+  ũ ữ
+  Ủ Ử
+  ủ ử
+  Ụ Ự
+  ụ ự
+ }
+ 
+ { Descender
+  H Ⱨ
+  h ⱨ
+  K Ⱪ
+  k ⱪ
+  N Ꞑ
+  n ꞑ
+  Z Ⱬ
+  z ⱬ
+ }
+ 
+ { Hook
+  B Ɓ
+  b ɓ
+  C Ƈ
+  c ƈ
+  D Ɗ
+  d ɗ
+  ɖ ᶑ
+  F Ƒ
+  f ƒ
+  G Ɠ
+  g ɠ
+  ɡ ɠ
+  ɢ ʛ
+  H Ꜧ
+  h ꜧ
+  ɦ ɧ
+  ɥ ʮ
+  K Ƙ
+  k ƙ
+  M Ɱ
+  m ɱ
+  N Ɲ
+  n ɲ
+  P Ƥ
+  p ƥ
+  q ʠ
+  T Ƭ
+  t ƭ
+  u ꭒ
+  V Ʋ
+  v ʋ
+  W Ⱳ
+  w ⱳ
+  Y Ƴ
+  y ƴ
+  Z Ȥ
+  z ȥ
+  ʒ ƺ
+ }
+ 
+ { PalatalHook
+  b ᶀ
+  c ꞔ
+  d ᶁ
+  f ᶂ
+  g ᶃ
+  ɡ ᶃ
+  h ꞕ
+  k ᶄ
+  l ᶅ
+  m ᶆ
+  n ᶇ
+  p ᶈ
+  r ᶉ
+  s ᶊ
+  ʃ ᶋ
+  t ƫ
+  v ᶌ
+  x ᶍ
+  z ᶎ
+ }
+ 
+ { RetroflexHook
+  a ᶏ
+  ɑ ᶐ
+  d ɖ
+  ɗ ᶑ
+  e ᶒ
+  ə ᶕ
+  ɛ ᶓ
+  ɜ ᶔ
+  ʮ ʯ
+  i ᶖ
+  l ɭ
+  n ɳ
+  ɔ ᶗ
+  Q Ɋ
+  q ɋ
+  R Ɽ
+  r ɽ
+  ɹ ɻ
+  s ʂ
+  ʃ ᶘ
+  T Ʈ
+  t ʈ
+  u ᶙ
+  z ʐ
+  ʒ ᶚ
+ }
+ 
+ { Rhotic
+  ə ɚ
+  ɜ ɝ
+ }
+ 
+ { Tail
+  S Ȿ
+  s ȿ
+  Z Ɀ
+  z ɀ
+  r ɼ
+ }
+ 
+ { Curl
+  c ɕ
+  d ȡ
+  g ꬶ
+  ɡ ꬶ
+  J Ʝ
+  j ʝ
+  l ȴ
+  m ꬺ
+  n ȵ
+  ŋ ꬼ
+  O Ꝍ
+  o ꝍ
+  ʃ ʆ
+  ʅ ƪ
+  t ȶ
+  v ⱴ
+  Y Ỿ
+  y ỿ
+  z ʑ
+  ʒ ʓ
+ }
+ 
+ { Clicks
+  p ʘ
+  t ǀ
+  s ǃ
+  c ǂ
+  l ǁ
+ }
+ 
+}

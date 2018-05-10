@@ -1,0 +1,16 @@
+﻿{ Modes
+ + any
+ + Act
+}
+
+{ Keys
+ XButton1   {send [LButton][LButton]}  % double click
+ XButton2   {modifier Act}             % (modifier)
+ 
+ _          _  {send [LButton][BS]}    % go up
+ LButton    _  {send ^[a]}             % select all
+ RButton    _  {send ![F4]}            % close
+ MButton    _  {send ^[x]}             % cut
+ WheelDown  _  {send ^[c]}             % copy
+ WheelUp    _  {send ^[v]}             % paste
+}

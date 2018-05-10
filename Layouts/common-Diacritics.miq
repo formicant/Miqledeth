@@ -1,0 +1,173 @@
+﻿{ Modes
+ + Dia
+ + Dia shift
+ + Dia Var
+ +
+}
+
+{ Keys
+ _   {sub Ligature}
+ 
+ `   {sub Grave}         {sub GraveBelow}
+ 1   ˩
+ 2   ˨
+ 3   ˧
+ 4   ˦
+ 5   ˥
+ 6   {sub Circumflex}    {sub CircumflexBelow}   % =[A]
+ 7   {sub Arch}          {sub ArchBelow}
+ 8   {sub Asterisk}      {sub AsteriskBelow}     % =[NumpadMult]
+ 9   {sub LeftHalfRing}
+ 0   {sub RightHalfRing}
+ -   {sub Macron}        {sub MacronBelow}
+ =   {sub Stroke}
+ 
+ Q   {sub Symbol}
+ W   
+ E   
+ R   {sub Rhotic}
+ T % {sub LaTeX Latin}  (defined in common-LaTeX.miq)
+ Y   
+ U   {sub Breve}         {sub BreveBelow}
+ I   {sub VerticalLine}  {sub VerticalLineBelow}
+ O   {sub Ring}          {sub RingBelow}
+ P   {sub Descender}
+ [   {sub DoubleGrave}
+ ]   {sub DoubleAcute}
+ \   {sub SlantedStroke} {sub VerticalStroke}
+ 
+ A   {sub Circumflex}    {sub CircumflexBelow}   % =[6]
+ S   {sub Script}
+ D   {sub DoubleStruck}
+ F   
+ G   {sub Curl}
+ H   {sub Horn}          {sub HookAbove}
+ J   {sub PalatalHook}
+ K   {sub Hook}
+ L   {sub RetroflexHook}
+ ;   {sub Diaeresis}     {sub DiaeresisBelow}
+ '   {sub Acute}         {sub AcuteBelow}
+ 
+ Z   {sub Tail}
+ X   {sub Cross}         {sub CrossBelow}
+ C   {sub SmallCaps}
+ V   {sub Caron}         {sub CaronBelow}
+ B   {sub Clicks}
+ N   {sub Tilde}         {sub TildeBelow}    {sub MiddleTilde}
+ M   {sub MiddleTilde}
+ ,   {sub CedillaOgonek} {sub CommaBelow}
+ .   {sub Dot}           {sub DotBelow}      {sub DotInside}
+ /   {sub Turn}
+ 
+ Numpad0    {sub EnclosingCircle} {sub EnclosingSquare}
+ Numpad1    {sub TurnedBridge}
+ Numpad2    {sub DownTack}
+ Numpad3    {sub Seagull}
+ Numpad4    {sub LeftTack}
+ Numpad5    {sub SquareBelow}
+ Numpad6    {sub RightTack}
+ Numpad7    {sub Bridge}
+ Numpad8    {sub UpTack}
+ Numpad9    {sub NotAbove}
+ NumpadDot  {sub N-ary}
+ NumpadAdd  {sub PlusBelow}
+ NumpadSub  {sub MinusBelow}
+ NumpadMult {sub Asterisk}        {sub AsteriskBelow}   % =[8]
+ 
+ PgUp       {sub Superscript}
+ PgDn       {sub Subscript}
+ Home       {sub Combining}
+ 
+ Space      {sub Special Latin}
+ 
+ F11      % {sub Katakana}  (defined in common-Kana.miq)
+ F12      % {sub Hiragana}  (defined in common-Kana.miq)
+ 
+ ScrollLock _ _ _ {toggle combining}
+}
+
+{ Substitutions
+ %  .  combining
+ %  ,  combining variant
+ %  …  combining double
+ %  \  non-combining
+ 
+ Ligature
+ Turn
+ SmallCaps
+ Superscript
+ Subscript
+ Combining
+ 
+ Acute             {_  ́ } {.  ́ } {\  ˊ}
+ AcuteBelow        {_  ̗ } {.  ̗ } {\  ˏ}
+ Grave             {_  ̀ } {.  ̀ } {\  ˋ}
+ GraveBelow        {_  ̖ } {.  ̖ } {\  ˎ}
+ Diaeresis         {_  ̈ } {.  ̈ } {\  ¨}
+ DiaeresisBelow    {_  ̤ } {.  ̤ }
+ Tilde             {_  ̃ } {.  ̃ } {…  ͠ } {\  ˜}
+ TildeBelow        {_  ̰ } {.  ̰ } {\  ˷}
+ Circumflex        {_  ̂ } {.  ̂ } {…  ᷍ } {\  ˆ}
+ CircumflexBelow   {_  ̭ } {.  ̭ }
+ Caron             {_  ̌ } {.  ̌ } {\  ˇ}
+ CaronBelow        {_  ̬ } {.  ̬ }
+ Breve             {_  ̆ } {.  ̆ } {…  ͝ } {\  ˘}
+ BreveBelow        {_  ̮ } {.  ̮ } {…  ͜ }
+ Arch              {_  ̑ } {.  ̑ } {…  ͡ }
+ ArchBelow         {_  ̯ } {.  ̯ } {…  ᷼ }
+ Macron            {_  ̄ } {.  ̄ } {…  ͞ } {\  ˉ}
+ MacronBelow       {_  ̱ } {.  ̱ } {…  ͟ } {\  ˍ}
+ Dot               {_  ̇ } {.  ̇ } {\  ˙}
+ DotBelow          {_  ̣ } {.  ̣ }
+ Ring              {_  ̊ } {.  ̊ } {\  ˚}
+ RingBelow         {_  ̥ } {.  ̥ } {\  ˳}
+ VerticalLine      {_  ̍ } {.  ̍ }
+ VerticalLineBelow {_  ̩ } {.  ̩ }
+ Cross             {_  ̽ } {.  ̽ } {\  ˟}
+ CrossBelow        {_  ͓ } {.  ͓ }
+ Asterisk          {_  ⃰ } {.  ⃰ }
+ AsteriskBelow     {_  ͙ } {.  ͙ }
+ DoubleAcute       {_  ̋ } {.  ̋ } {\  ˝}
+ DoubleGrave       {_  ̏ } {.  ̏ }
+ 
+ CedillaOgonek     {_  ̧ } {.  ̧ } {,  ̨ } {\  ¸}
+ CommaBelow        {_  ̦ } {.  ̦ }
+ HookAbove         {_  ̉ } {.  ̉ }
+ 
+ LeftTack          {_  ̘ } {.  ̘ }
+ RightTack         {_  ̙ } {.  ̙ }
+ UpTack            {_  ̝ } {.  ̝ } {\  ˔}
+ DownTack          {_  ̞ } {.  ̞ } {\  ˕}
+ PlusBelow         {_  ̟ } {.  ̟ } {\  ˖}
+ MinusBelow        {_  ̠ } {.  ̠ } {\  ˗}
+ LeftHalfRing      {_  ̜ } {.  ̜ } {\  ˓}
+ RightHalfRing     {_  ̹ } {.  ̹ } {\  ˒}
+ Bridge            {_  ̪ } {.  ̪ }
+ TurnedBridge      {_  ̺ } {.  ̺ } {…  ᷹}
+ SquareBelow       {_  ̻ } {.  ̻ }
+ Seagull           {_  ̼ } {.  ̼ }
+ NotAbove          {_  ̚ } {.  ̚ }
+ 
+ MiddleTilde       {_  ̴ } {.  ̴ }
+ Stroke            {_  ̵ } {.  ̵ } {,  ̶ }
+ SlantedStroke     {_  ̷ } {.  ̷ } {,  ̸ }
+ VerticalStroke    {_  ⃓ } {.  ⃓ } {,  ⃒ }
+ DotInside
+ EnclosingCircle   {_  ⃝ } {.  ⃝ } {\  ◯}
+ EnclosingSquare   {_  ⃞ } {.  ⃞ } {\  ⬜}
+ 
+ Horn              {_  ̛ } {.  ̛ }
+ Descender
+ Hook
+ PalatalHook       {_  ̡ } {.  ̡ }
+ RetroflexHook     {_  ̢ } {.  ̢ }
+ Rhotic            {_  ˞} {.  ˞} {\  ˞}
+ Tail
+ Curl
+ 
+ DoubleStruck
+ Script
+ Symbol
+ N-ary
+ 
+}
