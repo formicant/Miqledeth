@@ -23,7 +23,7 @@
  =   {sub Stroke}
  
  Q   {sub Symbol}
- W   
+ W   {sub Descender}
  E   
  R   {sub Rhotic}
  T % {sub LaTeX Latin}  (defined in common-LaTeX.miq)

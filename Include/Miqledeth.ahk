@@ -326,7 +326,14 @@ class Miqledeth
     keys := callback.Call()
     this.SimulateKeys(keys)
   }
-  
+    
+  TimeCommand(isReal, format, utc := "")
+  {
+    now := utc = "UTC" ? A_NowUTC : A_Now
+    FormatTime text, % now, % format
+    this.TextCommand(isReal, text)
+  }
+
   
   SendText(text)
   {
@@ -391,5 +398,6 @@ class Miqledeth
        , "retypePhrase":{ Func: Func("Miqledeth.RetypePhraseCommand"),  Register: false }
        , "retypeChar":  { Func: Func("Miqledeth.RetypeCharCommand"),    Register: false }
        , "correct":     { Func: Func("Miqledeth.CorrectCommand"),       Register: false }
-       , "callback":    { Func: Func("Miqledeth.CallbackCommand"),      Register: false } }
+       , "callback":    { Func: Func("Miqledeth.CallbackCommand"),      Register: false }
+       , "time":        { Func: Func("Miqledeth.TimeCommand"),          Register: true  } }
 }

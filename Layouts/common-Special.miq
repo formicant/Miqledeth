@@ -1,0 +1,13 @@
+﻿{ Modes
+ +
+ + shift
+ + Var
+}
+
+{ Keys
+ { NumLock
+  time "yyyy-MM-dd"
+  time "yyyy-MM-dd_HH-mm-ss"
+  time "yyyy-MM-dd_HH-mm-ss" UTC
+ }
+}

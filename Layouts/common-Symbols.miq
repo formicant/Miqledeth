@@ -62,7 +62,7 @@
  PgUp    _  _  
  PgDn    _  _  
  
- Space      " "     " "       ␣  ▯
+ Space      " "     " "      ", " ␣
  Enter       _       _        ¶  ⏎
  Delete      _       _        ⌦  ⌧
  BackSpace  {back 1}{back 1}  ⌫
