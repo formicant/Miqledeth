@@ -227,6 +227,17 @@ class Miqledeth
     this.KeyBuffer.AddBack(count)
   }
   
+  EncloseCommand(isReal, before, after)
+  {
+    this.KeyBuffer.AddText(before)
+    if(isReal)
+    {
+      this.SendText(before . after)
+      Sleep 50
+      this.SendLeft(StrLen(after))
+    }
+  }
+  
   SendCommand(isReal, keys)
   {
     this.SendKeys(keys)
@@ -347,6 +358,12 @@ class Miqledeth
       Send {BackSpace}
   }
   
+  SendLeft(count)
+  {
+    Loop % count
+      Send {Left}
+  }
+  
   SendKeys(keys)
   {
     term := RegexReplace(RegexReplace(keys, "\[", "{"), "\]", "}")
@@ -386,6 +403,7 @@ class Miqledeth
        , "passText":    { Func: Func("Miqledeth.PassTextCommand"),      Register: true  }
        , "back":        { Func: Func("Miqledeth.BackCommand"),          Register: true  }
        , "passBack":    { Func: Func("Miqledeth.PassBackCommand"),      Register: true  }
+       , "enclose":     { Func: Func("Miqledeth.EncloseCommand"),       Register: true  }
        , "send":        { Func: Func("Miqledeth.SendCommand"),          Register: true  }
        , "clear":       { Func: Func("Miqledeth.ClearCommand"),         Register: false }
        , "sub":         { Func: Func("Miqledeth.SubstituteCommand"),    Register: true  }
