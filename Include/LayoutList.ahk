@@ -1,6 +1,6 @@
 ﻿; AHK 1.1.27.07
 
-#Include Include\Lyt.ahk
+#Include Include\SystemLayouts.ahk
 
 
 ; Manipulates the layouts
@@ -8,6 +8,7 @@ class LayoutList
 {
   ; Invariable properties
   
+  SystemLayouts := new SystemLayouts()
   LayoutIconParameters := { }
   Layouts := { }
   Languages := { }
@@ -44,12 +45,12 @@ class LayoutList
   ; Combines the languages from layout descriptions and system layouts
   InitializeLanguages()
   {
-    systemLayoutList := Lyt.GetList()
+    systemLayoutList := this.SystemLayouts.List
     
     last := ""
     for index, systemLayout in systemLayoutList
     {
-      current := systemLayout.LocName
+      current := systemLayout.Language
       if(!this.Languages[current])
       {
         this.Languages[current] := { }
@@ -61,7 +62,7 @@ class LayoutList
         last := current
       }
     }
-    first := systemLayoutList[1].LocName
+    first := systemLayoutList[1].Language
     this.Languages[first].Prev := last
     this.Languages[last].Next := first
     
@@ -87,7 +88,7 @@ class LayoutList
   
   SetCurrentLayoutBySystemLanguage()
   {
-    language := Lyt.GetLocaleName()
+    language := this.SystemLayouts.Current.Language
     if(language && language != this.CurrentLanguage)
       this.SetCurrentLayoutByLanguage(language)
   }
@@ -124,7 +125,7 @@ class LayoutList
     if(layout.Language)
     {
       this.CurrentLanguage := layout.Language
-      Lyt.Set(layout.Language)
+      this.SystemLayouts.SetByLanguage(layout.Language)
     }
     this.UpdateIcon()
   }
@@ -133,7 +134,7 @@ class LayoutList
   {
     this.CurrentLanguage := language
     this.CurrentLayoutName := this.Languages[language].Layout.Name
-    Lyt.Set(language)
+    this.SystemLayouts.SetByLanguage(language)
     this.UpdateIcon()
   }
   
