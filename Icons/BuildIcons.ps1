@@ -5,21 +5,22 @@
 #   convert   from ImageMagick   (http://imagemagick.org)
 #   rc, link  from VisualStudio  (http://visualstudio.com)
 # Font required:
-#   Cousine   (https://fonts.google.com/specimen/Cousine)
+#   Cousine       (https://fonts.google.com/specimen/Cousine)
+#   MotoyaLCedar  (https://fonts.google.com/specimen/Kosugi)
 
 
 # Write actual paths here:
 Set-Alias -name Inkscape `
   -value "C:\Program Files\Inkscape\inkscape.com"
 Set-Alias -name ImageMagickConvert `
-  -value "C:\Program Files\ImageMagick\convert.exe"
+  -value "C:\Portable\Image\ImageMagick\convert.exe"
 Set-Alias -name ResourceCompiler `
-  -value "C:\Program Files (x86)\Windows Kits\8.1\bin\x64\rc.exe"
+  -value "C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\rc.exe"
 Set-Alias -name Linker `
-  -value "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\bin\Hostx64\x64\link.exe"
+  -value "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\Hostx64\x64\link.exe"
 
 $rowCount = 2         # number of icon rows in the svg
-$columnCount = 5      # number of icon columns in the svg
+$columnCount = 6      # number of icon columns in the svg
 $sizes = 16, 24, 32   # icon bitmap sizes
 $colorOptions = "-alpha", "Remove", "+dither", "-colors", "16"
   # (remove transparency and convrert to 16 colors without dithering)
@@ -49,7 +50,7 @@ foreach($row in 0..($rowCount - 1)) {
 $indices = 1..($rowCount * $columnCount)
 
 # Making rc file
-$indices | foreach { "$(100 + $_) ICON ${_}.ico" } | Out-File "BuildIcons\Icons.rc"
+$indices | ForEach-Object { "$(100 + $_) ICON ${_}.ico" } | Out-File "BuildIcons\Icons.rc"
 
 # Making res file
 ResourceCompiler /r "BuildIcons\Icons.rc"
