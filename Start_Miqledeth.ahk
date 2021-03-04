@@ -26,6 +26,6 @@ SetWorkingDir %A_ScriptDir%
 #Include Include\Miqledeth.ahk
 
 new Miqledeth({ LayoutFolder: "Layouts"
-    , LayoutIcons: { Path: "Icons\Icons.dll", IconsInARow: 5 }
+    , LayoutIcons: { Path: "Icons\Icons.dll", IconsInARow: 6 }
     , LockState: { Scroll: "AlwaysOff", Caps: "AlwaysOff", Num: "AlwaysOn" } })
   .Start()
