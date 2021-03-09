@@ -27,5 +27,6 @@ SetWorkingDir %A_ScriptDir%
 
 new Miqledeth({ LayoutFolder: "Layouts"
     , LayoutIcons: { Path: "Icons\Icons.dll", IconsInARow: 6 }
-    , LockState: { Scroll: "AlwaysOff", Caps: "AlwaysOff", Num: "AlwaysOn" } })
+    , LockState: { Scroll: "AlwaysOff", Caps: "AlwaysOff", Num: "AlwaysOn" }
+    , IgnoredProcesses: ["mstsc.exe", "vmware.exe"] })
   .Start()

@@ -8,7 +8,7 @@ class LayoutList
 {
   ; Invariable properties
   
-  SystemLayouts := new SystemLayouts()
+  SystemLayouts := { }
   LayoutIconParameters := { }
   Layouts := { }
   Languages := { }
@@ -16,6 +16,7 @@ class LayoutList
   
   ; Current state
   
+  IsMiqledethAllowed := true
   CurrentLayoutName := ""
   CurrentLanguage := ""
   CombiningMode := true
@@ -31,10 +32,11 @@ class LayoutList
   
   
   ; Constructor
-  __New(layoutIconParameters, layouts)
+  __New(layoutIconParameters, ignoredProcesses, layouts)
   {
     this.LayoutIconParameters := layoutIconParameters
     this.Layouts := layouts
+    this.SystemLayouts := new SystemLayouts(ignoredProcesses)
     
     this.InitializeLanguages()
     this.SetCurrentLayoutBySystemLanguage()
@@ -89,8 +91,14 @@ class LayoutList
   SetCurrentLayoutBySystemLanguage()
   {
     language := this.SystemLayouts.Current.Language
-    if(language && language != this.CurrentLanguage)
-      this.SetCurrentLayoutByLanguage(language)
+    if(language)
+    {
+      this.IsMiqledethAllowed := true
+      if(language != this.CurrentLanguage)
+        this.SetCurrentLayoutByLanguage(language)
+    }
+    else
+      this.IsMiqledethAllowed := false
   }
   
   SetCurrentLayout(layoutTerm)

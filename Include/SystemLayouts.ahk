@@ -9,12 +9,17 @@ class SystemLayouts
   
   List := [ ]
   Dictionary := { }
+  IgnoredProcesses := [ ]
   
   Current
   {
     get
     {
-      return this.GetLayoutByHkl(this.GetCurrentHkl())
+      hkl := this.GetCurrentHkl()
+      if(hkl)
+        return this.GetLayoutByHkl(hkl)
+      else
+        return { Hkl: 0 }
     }
   }
   
@@ -51,13 +56,20 @@ class SystemLayouts
   }
   
   ; Constructor
-  __New()
+  __New(ignoredProcesses)
   {
+    this.IgnoredProcesses := ignoredProcesses
     this.UpdateList()
   }
   
   GetCurrentHkl()
   {
+    WinGet activeWinProcess, ProcessName, A
+    
+    for i, ignoredProcess in this.IgnoredProcesses
+      if(activeWinProcess == ignoredProcess)
+        return 0
+    
     activeWindow := WinExist("A")
     windowThread := DllCall("GetWindowThreadProcessId", "Ptr", activeWindow, "Ptr", 0)
     threadHkl := DllCall("GetKeyboardLayout", "Ptr", windowThread)

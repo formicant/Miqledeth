@@ -57,7 +57,7 @@ class Miqledeth
     
     this.CreateHotkeys()
     
-    this.LayoutList := new LayoutList(this.Parameters.LayoutIcons, this.LayoutData.Layouts)
+    this.LayoutList := new LayoutList(this.Parameters.LayoutIcons, this.Parameters.IgnoredProcesses, this.LayoutData.Layouts)
   }
 
   
@@ -132,24 +132,32 @@ class Miqledeth
   
   OnHotkeyPreview(item)
   {
-    return item.Variants[this.LayoutList.CurrentLayoutName . this.ModifierString]
-      || item.Variants[this.LayoutList.CurrentLayoutName . this.LayoutData.AnyModifierString]
+    if(this.LayoutList.IsMiqledethAllowed)
+      return item.Variants[this.LayoutList.CurrentLayoutName . this.ModifierString]
+        || item.Variants[this.LayoutList.CurrentLayoutName . this.LayoutData.AnyModifierString]
+    else
+      return false
   }
   
   OnHotkey(item)
   {
-    key := { Time: A_TickCount
-      , LayoutName: this.LayoutList.CurrentLayoutName
-      , ModifierString: this.ModifierString
-      , Item: item }
+    if(this.LayoutList.IsMiqledethAllowed)
+    {
+      key := { Time: A_TickCount
+        , LayoutName: this.LayoutList.CurrentLayoutName
+        , ModifierString: this.ModifierString
+        , Item: item }
 
-    this.SimulateKey(key, true)
+      this.SimulateKey(key, true)
+    }
+    else
+      this.ClearCommand(true)
   }
   
   ; TODO: generalize
   OnMouseWheel(item)
   {
-    if(this.ModifierPressing.IsVirgin)
+    if(this.LayoutList.IsMiqledethAllowed && this.ModifierPressing.IsVirgin)
       this.OnHotkey(item)
   }
   
